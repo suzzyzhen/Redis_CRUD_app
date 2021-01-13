@@ -14,7 +14,9 @@ Methology:
 1. transform the csv dataset(books.csv) into a JSON format (books2.json) 
 
 2. store the JSON file into Redis database with ReJSON API 
+
 INFO: https://redislabs.com/blog/redis-as-a-json-store/
+
 Module installation: https://github.com/RedisJSON/RedisJSON
 
 
