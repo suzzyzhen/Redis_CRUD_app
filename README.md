@@ -38,4 +38,6 @@ in Redis-cli, data can be retrived with bookID as follows:
 ![Screen Shot 2021-01-13 at 6 12 06 PM](https://user-images.githubusercontent.com/60942661/104521582-2278db80-55cb-11eb-968a-9353ba46cc99.png)
 
 2. Create books into the database: 
+![Screen Shot 2021-01-13 at 6 16 50 PM](https://user-images.githubusercontent.com/60942661/104521884-cbbfd180-55cb-11eb-9c67-78027dfee94b.png)
 
+3. Update
