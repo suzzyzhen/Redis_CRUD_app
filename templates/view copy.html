@@ -1,0 +1,54 @@
+{% extends "base.html" %}
+
+{% block title %} Your Account {% endblock %}
+
+{% block content %} 
+
+<body>
+    <div>
+      Please enter book ID
+        <br/>
+    </div>
+    <form method="POST">
+        <div>
+            <br/>
+            BookID:
+            <input type="text" name="bookID" />
+        </div>
+        <div>
+            <br />
+            <button type="submit">Get Book</button>
+        </div>
+    </form>
+</body>
+ 
+ 
+    {% if book %}
+        <tr>
+            <td>TITLE:{{book.title}}</td>
+            <br/>
+         
+            <td>AUTHORS:{{book.authors}}</td>
+            <br/>
+
+            <td>RATING:{{book.average_rating}}</td>
+            <br/>
+
+
+            <td>ISBN:{{book.isbn}}</td>
+            <br/>
+
+            <td>LANGUAGE:{{book.language_code}}</td>
+            <br/>
+
+            <td>PAGES:{{book.num_pages}}</td>
+            <br/>
+        </tr>
+    {% endif %}
+
+</br>
+<div>
+    <a href="/user" type="button" class="btn">Go Back</a>
+</div>
+
+{% endblock %}

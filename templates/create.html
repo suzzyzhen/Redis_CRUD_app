@@ -1,0 +1,46 @@
+{% extends "base.html" %}
+
+{% block title %} Your Account {% endblock %}
+
+{% block content %} 
+
+<body class='middle'>
+    <div>
+      Please create your book!
+        <br/>
+    </div>
+    <form method="post">
+        <div>
+            <br/>
+            BookID:
+            <input type="text" name="bookID" placeholder="ID" />
+        </div>
+        <div>
+            <br />
+            Book Title:
+            <input type="text" name="title" placeholder="Title"/>
+        </div>
+        <div>
+            <br />
+            Author:
+            <input type="text" name="authors" placeholder="Author"/>
+        </div>
+        <div>
+            <br />
+            Book Ratings:
+            <input type="text" name="ratings" placeholder="Ratings"/>
+        </div>
+        <div>
+            <br />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Save Book</button>
+        </div>
+    </form>
+
+ </body>
+
+</br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a href="/" type="button" class="btn btn-secondary">Home</a>
+</div>
+
+ {% endblock %}

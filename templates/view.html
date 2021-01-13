@@ -1,0 +1,60 @@
+{% extends "base.html" %}
+
+{% block title %} Your Account {% endblock %}
+
+{% block content %} 
+
+<body class='middle'>
+    <div>
+      Please enter book ID
+        <br/>
+    </div>
+    <form method="POST">
+        <div>
+            <br/>
+            BookID:
+            <input type="text" name="bookID" placeholder="ID" aria-label="Search" />
+        </div>
+        <div>
+            <br />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search ID</button>
+        </div>
+    </form>
+</body>
+ 
+ 
+    {% if book %}
+        <tr>
+            <td>TITLE:{{book.title}}</td>
+            <br/>
+         
+            <td>AUTHORS:{{book.authors}}</td>
+            <br/>
+
+            <td>RATING:{{book.average_rating}}</td>
+            <br/>
+
+
+            <td>ISBN:{{book.isbn}}</td>
+            <br/>
+
+            <td>LANGUAGE:{{book.language_code}}</td>
+            <br/>
+
+            <td>PAGES:{{book.num_pages}}</td>
+            <br/>
+
+            <td>PUBLICATION DATE:{{book.publication_date}}</td>
+            <br/>
+
+            <td>PUBLISHER:{{book.publisher}}</td>
+            <br/>
+        </tr>
+    {% endif %}
+
+</br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a href="/" type="button" class="btn btn-secondary">Home</a>
+</div>
+
+{% endblock %}

@@ -1,0 +1,47 @@
+{% extends "base.html" %}
+
+{% block title %} Your Account {% endblock %}
+
+{% block content %} 
+
+<body class='middle'>
+    <div>
+      Please enter your book ID and new Information
+        <br/>
+    </div>
+    <form method="post">
+    	<div>
+            <br/>
+            BookID:
+            <input type="text" name="bookID" placeholder="New ID" />
+        </div>
+        <div>
+            <br />
+            New Title:
+            <input type="text" name="title" placeholder="New Title"/>
+        </div>
+        <div>
+            <br />
+            New Author:
+            <input type="text" name="authors" placeholder="New Author"/>
+        </div>
+        <div>
+            <br />
+            New Ratings:
+            <input type="text" name="ratings" placeholder="New Rating"/>
+        </div>
+        <div>
+            <br />
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Update Book</button>
+        </div>
+    </form>
+
+ </body>
+
+
+</br>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <a href="/" type="button" class="btn btn-secondary">Home</a>
+</div>
+
+ {% endblock %}
