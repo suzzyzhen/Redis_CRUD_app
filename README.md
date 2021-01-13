@@ -23,7 +23,7 @@ Module installation: https://github.com/RedisJSON/RedisJSON
 
 in Redis-cli, data can be retrived with bookID as follows:
 
-![Screenshot]("https://user-images.githubusercontent.com/60942661/104506877-f7cf5880-55b3-11eb-9f8f-54e06163bf4d.png")
+![Screenshot](https://github.com/suzzyzhen/Redis_CRUD_app/issues/1#issue-785421058)
 
 
 4. Launch Flask app with python app.py in terminal 
