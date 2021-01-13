@@ -35,4 +35,5 @@ in Redis-cli, data can be retrived with bookID as follows:
 ## Operations: 
 1. Read books from database: 
 
+![Screen Shot 2021-01-13 at 6 12 06 PM](https://user-images.githubusercontent.com/60942661/104521582-2278db80-55cb-11eb-968a-9353ba46cc99.png)
 
