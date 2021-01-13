@@ -19,6 +19,8 @@ INFO: https://redislabs.com/blog/redis-as-a-json-store/
 
 Module installation: https://github.com/RedisJSON/RedisJSON
 
+in Redis-cli, data can be retrived with bookID as follows:
 
+![alt text]("https://user-images.githubusercontent.com/60942661/104506877-f7cf5880-55b3-11eb-9f8f-54e06163bf4d.png")
 
-
+3. 
