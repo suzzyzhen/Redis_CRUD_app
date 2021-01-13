@@ -15,10 +15,6 @@ wsgi_app = app.wsgi_app
 def home():
 	return render_template("index.html")
 
-@app.route("/Magazines")
-def magazines():
-	return render_template("Mag.html")		
-
 
 @app.route("/create", methods = ["POST", "GET"])
 def create():
