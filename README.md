@@ -52,4 +52,4 @@ in Redis-cli, data can be retrived with bookID as follows:
 
 4. Delete books in database: 
 
-
+![Screen Shot 2021-01-13 at 9 02 23 PM](https://user-images.githubusercontent.com/60942661/104534775-e6ea0b80-55e2-11eb-83a2-c6507b1c8b90.png)
